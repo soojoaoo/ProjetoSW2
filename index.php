@@ -70,6 +70,15 @@
                 <a href="#" class="btn btn-secondary">Clique</a>
                     </p>
         </div>
+        <div class="col-sm-6">
+            <h1 class="bg-primary">Formas de Pagamento</h1>
+            <p class="text-primary">
+                    Use essa opção para cadastrar as formas de pagamentos.
+                </p>
+                <p>
+                <a href="formapagamento.php" class="btn btn-primary">Clique</a>
+                    </p>
+        </div>
     </div>
 </div>
 </body>

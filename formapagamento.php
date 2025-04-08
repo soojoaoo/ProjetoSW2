@@ -11,30 +11,20 @@
 <body>
     
     <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro de Administradores</h1>
+        <h1>Cadastro de Formas de Pagamento</h1>
     </div>
 
     <div class="container">
 
             <div class="row">
                 <div class="col-sm-8 mx-auto mt-3 border border-primary">
-                <h3>Preencha os dados abaixo:</h3>
+                <h3>Preencha os dados abaixo</h3>
 
-                <form action="administrador_cadastro.php">
-
-                    <p>
-                        Digite o nome do administrador<br>
-                        <input type="text" name="nome" class="form-control">
-                    </p>
+                <form action="formapagamento_cadastro.php">
 
                     <p>
-                        Digite o login<br>
-                        <input type="text" name="login" class="form-control">
-                    </p>
-
-                    <p>
-                        Digite a senha<br>
-                        <input type="password" name="senha" class="form-control">
+                    Digite o nome da forma de pagamento:<br>
+                        <input type="text" name="nomeformadepagamento" class="form-control">
                     </p>
 
                     <p>
