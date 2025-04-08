@@ -20,26 +20,31 @@
                 <div class="col-sm-8 mx-auto mt-3 border border-warning">
                 <h3>Preencha os dados abaixo:</h3>
 
-                <form action="#">
+                <form action="produto_cadastro">
 
                     <p>
-                        Digite a descrição<br>
+                        Digite o nome<br>
                         <input type="text" name="descricao" class="form-control">
                     </p>
 
                     <p>
+                        Digite o preço de custo<br>
+                        <input type="text" name="precocusto" class="form-control">
+                    </p>
+
+                    <p>
                         Digite o preço de venda<br>
-                        <input type="text" name="preco" class="form-control">
+                        <input type="text" name="precovenda" class="form-control">
                     </p>
 
                     <p>
                         Digite a categoria<br>
-                        <input type="password" name="categoria" class="form-control">
+                        <input type="text" name="categoria" class="form-control">
                     </p>
 
                     <p>
                         Digite o fornecedor<br>
-                        <input type="password" name="fornecedor" class="form-control">
+                        <input type="text" name="fornecedor" class="form-control">
                     </p>
 
                     <p>
