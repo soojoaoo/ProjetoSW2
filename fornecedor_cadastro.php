@@ -20,14 +20,14 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
+    <div class="bg-success text-white p-3 text-center">
         <h1>Cadastro de Fornecedores</h1>
     </div>
 
     <div class="container">
 
             <div class="row">
-                <div class="col-sm-8 mx-auto mt-3 border border-primary">
+                <div class="col-sm-8 mx-auto mt-3 border border-success">
                 <h3 class="text-center p-3">Confirmação do Cadastro</h3>
 
                 <div>

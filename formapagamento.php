@@ -20,7 +20,7 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
+    <div class="bg-secondary text-white p-3 text-center">
         <h1>Cadastro de Formas de Pagamento</h1>
     </div>
 
@@ -40,7 +40,7 @@
                     <p>
                         <input type="submit" value="Cadastrar" class="btn btn-primary">
                         <input type="reset" value="Limpar" class="btn btn-success">
-                        <a href="#" class="btn btn-secondary">Voltar</a>
+                        <a href="index.php" class="btn btn-secondary">Voltar</a>
                     </p>
                 </form>
                 </div>

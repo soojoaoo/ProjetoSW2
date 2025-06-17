@@ -70,7 +70,7 @@
                 </p>
                 <p>
                     <a href="fornecedor.php" class="btn btn-success">Cadastro</a>
-                    <a href="fornedecor_pesquisa.php" class="btn btn-success">Pesquisa</a>
+                    <a href="fornecedor_pesquisa.php" class="btn btn-success">Pesquisa</a>
                 </p>
             </div>
         </div>
@@ -85,7 +85,7 @@
                 </p>
                 <p>
                     <a href="produto.php" class="btn btn-warning">Cadastro</a>
-                    <a href="produtps_pesquisa.php" class="btn btn-warning">Pesquisa</a>
+                    <a href="produto_pesquisa.php" class="btn btn-warning">Pesquisa</a>
                 </p>
             </div>
 
@@ -102,7 +102,7 @@
                     Utilize esta opção para escolher sua forma de pagamento.
                 </p>
                 <p>
-                    <a href="formaspagamento.php" class="btn btn-secondary">Cadastro</a>
+                    <a href="formapagamento.php" class="btn btn-secondary">Cadastro</a>
                     <a href="formapagamento_pesquisa.php" class="btn btn-secondary">Pesquisa</a>
                 </p>
             </div>

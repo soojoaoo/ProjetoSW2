@@ -20,7 +20,7 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
+    <div class="bg-secondary text-white p-3 text-center">
         <h1>Cadastro de Formas de Pagamento</h1>
     </div>
 
@@ -38,7 +38,7 @@
 
                         echo "Nome do da Forma de Pagamento: $nome <br>";
 
-                        $sql = "insert into formapagamento(nome)
+                        $sql = "insert into formapagamento(nome, codfor)
                                 values (:nome)";
 
                         $result = $conexao->prepare($sql);

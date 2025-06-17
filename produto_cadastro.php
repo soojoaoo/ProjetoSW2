@@ -20,14 +20,14 @@
 </head>
 <body>
     
-    <div class="bg-primary text-white p-3 text-center">
+    <div class="bg-warning text-white p-3 text-center">
         <h1>Cadastro de Produtos</h1>
     </div>
 
     <div class="container">
 
             <div class="row">
-                <div class="col-sm-8 mx-auto mt-3 border border-primary">
+                <div class="col-sm-8 mx-auto mt-3 border border-warning">
                 <h3 class="text-center p-3">Confirmação do Cadastro</h3>
 
                 <div>
@@ -46,7 +46,7 @@
                                 Categoria: $categoria <br>
                                 Fornecedor: $fornecedor <br>";
 
-                        $sql = "insert into produto(descricao, precocusto, precovenda, categoria, fornecedor )
+                        $sql = "insert into produto(descricao, precocusto, precovenda, codcategoria, codfornecedor )
                                 values (:descricao, :precocusto, :precovenda, :categoria, :fornecedor)";
 
                         $result = $conexao->prepare("$sql");
